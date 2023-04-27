@@ -53,22 +53,21 @@
     <div id="form" class="row">
         <h2>Formulario de la Generalidad Valenciana</a></h2>
         <form action="mailto:bagor.mc@gmail.com" method="post" enctype="multipart/form-data"></form>
-        <label for="name">Nombre*</label> 
+        <label for="idioma">Lengua hablada</label> 
     </br>
-        <input type="text" placeholder="Introduzca su nombre" required/>
+        <input type="text" placeholder="Lengua hablada" required/>
     </br>
-        <label for="countryCode">Código de país</label> 
-    </br>
-        <input type="text" placeholder="Introduzca el código de país"/>
-    </br>
-        <label for="distrito">Distrito</label>
-    </br>
-         <input type="text" placeholder="Introduzca el distrito" />
-    </br> 
-        <label for="population">Población</label>
-    </br>
-     <input type="text" placeholder="Introduzca la población"/>
-    </br>
+    <div >
+        <label>Oficial (marque la casilla correspondiente)</label>
+        <select class="form-select">
+          <option selected></option>
+          <option value="1">Sí</option>
+          <option value="2">No</option>
+        </select>
+      </div>
+       
+        
+      
         
     
     <input type="submit" value="ENVIAR" style="background-color:rgb(223, 33, 33); border-color:rgb(224, 48, 24); color:white">
